@@ -8,7 +8,7 @@
 [xm 音乐](http://keygenmusic.net/)
 
 
-![Alt text](/Images/view.png)
+![](/Images/view.jpg)
 
   
 ------------
