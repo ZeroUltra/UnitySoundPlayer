@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class TestPlay : MonoBehaviour
 {
-    public MusicPlayer musicPlayer;
+    public MusicUICtrl musicPlayer;
     public string fileName;
     void Start()
     {

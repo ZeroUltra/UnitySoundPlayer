@@ -597,7 +597,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403e0f5bca27a4640a559731883411d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicPlayer: {fileID: 1604628145}
+  musicPlayer: {fileID: 1604628146}
   fileName: xm.xm
 --- !u!1 &226152632
 GameObject:
@@ -768,7 +768,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403e0f5bca27a4640a559731883411d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicPlayer: {fileID: 1604628145}
+  musicPlayer: {fileID: 1604628146}
   fileName: mp3.mp3
 --- !u!1 &335090070
 GameObject:
@@ -1165,7 +1165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1392,7 +1392,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 0
+  m_RaycastTarget: 1
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1950,7 +1950,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
@@ -1984,7 +1984,7 @@ GameObject:
   - component: {fileID: 1604628142}
   - component: {fileID: 1604628144}
   - component: {fileID: 1604628143}
-  - component: {fileID: 1604628145}
+  - component: {fileID: 1604628146}
   m_Layer: 5
   m_Name: MusicCtrl
   m_TagString: Untagged
@@ -2060,7 +2060,7 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1604628141}
   m_CullTransparentMesh: 0
---- !u!114 &1604628145
+--- !u!114 &1604628146
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2069,7 +2069,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1604628141}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f700b3c5c0e7b549b04d881162398c5, type: 3}
+  m_Script: {fileID: 11500000, guid: 8db3069d12bc5d04097477a77cf1340d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   btnPlay: {fileID: 1325545130}
@@ -2801,7 +2801,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403e0f5bca27a4640a559731883411d5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicPlayer: {fileID: 1604628145}
+  musicPlayer: {fileID: 1604628146}
   fileName: mod.mod
 --- !u!1 &2001325686
 GameObject:

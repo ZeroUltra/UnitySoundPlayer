@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
-namespace ExpansionMusic
+namespace Music.Core
 {
     public class MusicHelper 
     {
-        private static HashSet<string> modHashSet = new HashSet<string> { "MO3", "IT", "XM", "S3M", "MTM", "MOD", "UMX格式" };
+        private static HashSet<string> modHashSet = new HashSet<string> { "MO3", "IT", "XM", "S3M", "MTM", "MOD", "UMX" };
         private static  HashSet<string> streamHashSet = new HashSet<string> { "MP3", "MP2", "MP1", "OGG", "WAV", "AIFF"};
         public enum MusicType
         {
